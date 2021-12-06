@@ -1,0 +1,33 @@
+{
+  "properties": [
+    {
+      "name": "mybatis-plus.configuration.log-impl",
+      "type": "java.lang.String",
+      "description": "Description for mybatis-plus.configuration.log-impl."
+    },
+    {
+      "name": "mybatis-plus.mapper-locations",
+      "type": "java.lang.String",
+      "description": "Description for mybatis-plus.mapper-locations."
+    },
+    {
+      "name": "alioss.endpoint",
+      "type": "java.lang.String",
+      "description": "Description for alioss.endpoint."
+    },
+    {
+      "name": "alioss.accessKeyId",
+      "type": "java.lang.String",
+      "description": "Description for alioss.accessKeyId."
+    },
+    {
+      "name": "alioss.accessKeySecret",
+      "type": "java.lang.String",
+      "description": "Description for alioss.accessKeySecret."
+    },
+    {
+      "name": "alioss.bucketName",
+      "type": "java.lang.String",
+      "description": "Description for alioss.bucketName."
+    }
+  ] }
