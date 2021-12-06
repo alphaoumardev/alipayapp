@@ -1,31 +1,28 @@
 import request from "../axios/request";
 
 
-export const lists=(page, size, user)=>
-{
+export const lists = (page, size, user) => {
   return request
   ({
-    url:'/user/listpage',
-    method:'POST',
-    params:{page,size},
-    data:user
+    url: '/user/listpage',
+    method: 'POST',
+    params: {page, size},
+    data: user
   })
 }
-export const deleteAvatar=(file)=>
-{
+export const deleteAvatar = (file) => {
   return request
   ({
-    url:'/files/deleteAvatar',
-    method:'POST',
-    params:{file},
+    url: '/files/deleteAvatar',
+    method: 'POST',
+    params: {file},
   })
 }
-export const addUser=(user)=>
-{
+export const addUser = (user) => {
   return request
   ({
-    url:'/user/adduser',
-    method:'POST',
-    data:user
+    url: '/user/adduser',
+    method: 'POST',
+    data: user
   })
 }

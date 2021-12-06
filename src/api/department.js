@@ -1,10 +1,9 @@
 import request from "../axios/request";
 
-export const findandcount=()=>
-{
+export const findandcount = () => {
   return request
   ({
-    url:'/department/find',
-    method:'GET',
+    url: '/department/find',
+    method: 'GET',
   })
 }
